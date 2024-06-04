@@ -1,0 +1,150 @@
+/* General styles */
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transcript-container {
+  min-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.transcript {
+  white-space: pre-wrap;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.language-select {
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.color-pickers {
+  display: flex;
+  gap: 20px;
+}
+
+/* Light theme styles */
+.container.light {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.title.light, .heading.light {
+  color: #333;
+}
+
+.btn.light {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn.light:hover {
+  background-color: #0056b3;
+}
+
+.reset-btn.light {
+  background-color: #dc3545;
+}
+
+.reset-btn.light:hover {
+  background-color: #c82333;
+}
+
+/* Dark theme styles */
+.container.dark {
+  background-color: #333;
+  color: #f8f9fa;
+}
+
+.title.dark, .heading.dark {
+  color: #f8f9fa;
+}
+
+.btn.dark {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn.dark:hover {
+  background-color: #218838;
+}
+
+.reset-btn.dark {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.reset-btn.dark:hover {
+  background-color: #e0a800;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .controls {
+    justify-content: center;
+  }
+
+  .color-pickers {
+    flex-direction: row;
+  }
+}
