@@ -30,7 +30,7 @@ SpeakEasy 2.0 is a modern speech-to-text converter web application built using R
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Darshanjasani73/SpeakEasy-2.0.git
+   git clone https://github.com/Darshanjasani73/SpeakEasy2.0.git
    cd speakeasy-2.0
    ```
 
