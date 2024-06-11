@@ -1,8 +1,10 @@
-# SpeakEasy 2.0 - Speech to Text Converter
+![ClipWindowsGIF](https://github.com/Darshanjasani73/SpeakEasy2.0/assets/167104440/0a9735ce-85c1-4f99-8344-28cbb46aaacf)# SpeakEasy 2.0 - Speech to Text Converter
 
 ## Introduction
 
 SpeakEasy 2.0 is a modern speech-to-text converter web application built using React. It allows users to convert spoken words into text in real-time, with additional functionalities to customize the appearance of the text, copy it to the clipboard, and download it as an image. The app supports multiple languages and includes various text styling options.
+
+## 👉 https://speakeasy2-0.vercel.app/
 
 ## Features
 
