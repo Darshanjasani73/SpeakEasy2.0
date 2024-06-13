@@ -72,6 +72,16 @@ SpeakEasy 2.0 is the advanced version of SpeakEasy. You can check out the previo
 - **Repository Link:** https://github.com/Darshanjasani73/SpeakEasy-SpeechToTextConverter
 - **Live Demo on Vercel:** https://speak-easy-speech-to-text-converter.vercel.app/
 
+## UI of Website
+
+
+![Screenshot 2024-06-13 174914](https://github.com/Darshanjasani73/SpeakEasy2.0/assets/167104440/774b0857-6fdb-4dd3-a3c1-2f564c91f467)
+
+![Screenshot 2024-06-13 174840](https://github.com/Darshanjasani73/SpeakEasy2.0/assets/167104440/6820ba81-606a-4116-8c20-d6d941d8e96a)
+
+![Screenshot 2024-06-13 174716](https://github.com/Darshanjasani73/SpeakEasy2.0/assets/167104440/7a415743-5205-4da3-9d23-61404ad075a2)
+
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code adheres to the project's coding standards and passes all tests.
